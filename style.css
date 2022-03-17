@@ -1,0 +1,102 @@
+/* I used the * selector to target all elements within the webpage more easily */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body {
+    color: #fff;
+    background: #6c757d;
+    text-align: center;
+}   
+
+/* Styles applied to navbar */
+.navbar {
+    background-color: #343a40;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 10px;
+   
+}
+
+
+h1, h2, h3, p {
+    text-align: center;
+    padding: 0 250px 0 250px;
+}
+
+/* Unique font size given to all h2 headings */
+h2 {
+    font-size: 50px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Styles applied to get numbers and bullet points aligned */
+ol, ul {
+    text-align: left;
+    list-style-position: inside;
+}
+
+/* Styles applied to both ordered and unordered lists in order to have them centered and aligned */
+.center{
+    display: table;
+    margin: 0 auto;
+    }
+
+/* Padding used for top of image to create a more noticeable seperation between the image and the header */   
+img {
+    padding-top: 40px
+}
+
+/* Styles applied to the footer */
+.footer-container {
+    background-color: #343a40;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    
+}
+
+/* Styles applied to horizontal rule in order to override it's default style of going across the page */
+hr {
+    width: 500px;
+    margin: 50px auto;
+}
+
+section {
+    display: block;
+    font-size: 20px;
+    margin: 5rem;
+    }
+
+/* Styles applied to all links */
+a {
+    color: #000;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+
+}
+/* Adds a small amount of interactivity to links when hovered over */
+a:hover {
+font-size: 1.1rem;
+}
+
+a:visited {
+    color: #343a40;
+}
+
+
